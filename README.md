@@ -1,4 +1,4 @@
-# Android_RecyclerView_QianTao
+＃Android_RecyclerView_嵌套
 Android-学习-016-RecyclerView嵌套RecyclerView点击事件实例-2020-4-26
 代码**来源**，例子很**好**
 
