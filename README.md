@@ -56,10 +56,15 @@ colors.xml              **颜色**
 ### 2.drawable不改
 ### 3.values不改
 ### 4.layout改
-**activity_main.xml**和**item_detail_list.xml**(原名item_detaillist.xml） 
+
+**activity_main.xml**和**item_detail_list.xml**(原名item_detaillist.xml）
+
 android.support.v7.widget.RecyclerView
+
 改为
+
 androidx.recyclerview.widget.RecyclerView
+
 ### 5.依赖改
 1.
 build.gradle(Module:app)->dependencise
@@ -138,6 +143,7 @@ implementation "androidx.recyclerview:recyclerview-selection:1.1.0-rc01"
 
 ## 2.不同结构
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200426183512297.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTA5NjU2OQ==,size_16,color_FFFFFF,t_70#pic_center)
+
 **改后**MainActivity.java 里的initdata
 ```bash
 private void initdata() {
