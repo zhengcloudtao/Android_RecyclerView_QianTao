@@ -11,23 +11,34 @@ Android-学习-016-RecyclerView嵌套RecyclerView点击事件实例-2020-4-26
 
 推荐去看一下他的博客，去下载代码包
 我**只**做**分析**
+
 @[TOC](目录)
 # 一、结构
 (我以Empty Activity修改)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200426180630309.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTA5NjU2OQ==,size_16,color_FFFFFF,t_70#pic_center)
 ## 五个类:
 Bean类**用来存储返回数据**
+
 GridSpacingItemDecoration类**一个动态设置item个数,间距的工具类**
+
 RvAdapter类最外层**RecyclerView的适配器**
+
 RvvAdapter类最内层**RecyclerView的适配器**
+
 MainActivity类:**新建数据，主类**
+
 ## 三个layout.xml
 activity_main.xml  **放置一个recyclerview**
+
 item_detail_list.xml(原名item_detaillist)**外层recyclerview**
+
 item_detail_option.xml **内层recyclerview**
+
 ## 两个drawable.xml
 background_grid_select.xml            **选中时选项外框样式**
+
 background_grid_unselect.xml        **未选中时选项外框样式**
+
 ## 一个values.xml
 colors.xml              **颜色**
 
