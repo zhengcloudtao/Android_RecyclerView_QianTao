@@ -34,7 +34,9 @@ colors.xml              **颜色**
 # 二、问题
 当你下载了上面代码
 [问题:The given artifact contains a string literal with a package reference 'andro](https://blog.csdn.net/weixin_41096569/article/details/105756751)
+
 [问题:Static interface methods are only supported starting with Android N (--min-api 24): void butterkn](https://blog.csdn.net/weixin_41096569/article/details/105756714)
+
 [问题: Error inflating class RecyclerView](https://blog.csdn.net/weixin_41096569/article/details/105756573)
 # 三、修改
 因为那篇博客旧，版本要更新
